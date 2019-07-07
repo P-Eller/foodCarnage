@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HOME</title>
+    <link rel="stylesheet" href="{% static "css/test.css" %}"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="d-flex flex-column">
+      <div class="list-group">
+
+        <input type="checkbox" name="Dish" value="Value1" id="CheckBox1" />
+        <label class="list-group-item" for="CheckBox1">Main</label>
+
+        <input type="checkbox" name="Dish" value="Value2" id="CheckBox2" />
+        <label class="list-group-item" for="CheckBox2">Dessert</label>
+
+        <input type="checkbox" name="Dish" value="Value3" id="CheckBox3" />
+        <label class="list-group-item" for="CheckBox3">Starter</label>
+
+        <input type="checkbox" name="Dish" value="Value4" id="CheckBox4" />
+        <label class="list-group-item" for="CheckBox4">Snack</label>
+
+      </div>
+      <div class="list-group">
+
+        <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox5" />
+        <label class="list-group-item" for="CheckBox5">Caption for CheckBox1</label>
+
+        <input type="checkbox" name="CheckBoxInputName" value="Value2" id="CheckBox2" />
+        <label class="list-group-item" for="CheckBox2">Caption for CheckBox2</label>
+
+        <input type="checkbox" name="CheckBoxInputName" value="Value3" id="CheckBox3" />
+        <label class="list-group-item" for="CheckBox3">Caption for CheckBox3</label>
+
+        <input type="checkbox" name="CheckBoxInputName" value="Value4" id="CheckBox4" />
+        <label class="list-group-item" for="CheckBox4">Caption for CheckBox4</label>
+
+      </div>
+      <div class="list-group">
+
+        <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox1" />
+        <label class="list-group-item" for="CheckBox1">Caption for CheckBox1</label>
+
+        <input type="checkbox" name="CheckBoxInputName" value="Value2" id="CheckBox2" />
+        <label class="list-group-item" for="CheckBox2">Caption for CheckBox2</label>
+
+        <input type="checkbox" name="CheckBoxInputName" value="Value3" id="CheckBox3" />
+        <label class="list-group-item" for="CheckBox3">Caption for CheckBox3</label>
+
+        <input type="checkbox" name="CheckBoxInputName" value="Value4" id="CheckBox4" />
+        <label class="list-group-item" for="CheckBox4">Caption for CheckBox4</label>
+
+      </div>
+    </div>
+
+
+    <!-- These are checbox buttons
+    <div class="list-group">
+
+      <input type="checkbox" name="CheckBoxInputName" value="Value1" id="CheckBox1" />
+      <label class="list-group-item" for="CheckBox1">Caption for CheckBox1</label>
+
+      <input type="checkbox" name="CheckBoxInputName" value="Value2" id="CheckBox2" />
+      <label class="list-group-item" for="CheckBox2">Caption for CheckBox2</label>
+
+      <input type="checkbox" name="CheckBoxInputName" value="Value3" id="CheckBox3" />
+      <label class="list-group-item" for="CheckBox3">Caption for CheckBox3</label>
+
+      <input type="checkbox" name="CheckBoxInputName" value="Value4" id="CheckBox4" />
+      <label class="list-group-item" for="CheckBox4">Caption for CheckBox4</label>
+
+    </div>
+    -->
+
+    <!-- These are radio buttons
+    <div class="list-group">
+
+      <input type="radio" name="RadioInputName" value="Value1" id="Radio1" />
+      <label class="list-group-item" for="Radio1">Caption for Radio1</label>
+
+      <input type="radio" name="RadioInputName" value="Value2" id="Radio2" />
+      <label class="list-group-item" for="Radio2">Caption for Radio2</label>
+
+      <input type="radio" name="RadioInputName" value="Value3" id="Radio3" />
+      <label class="list-group-item" for="Radio3">Caption for Radio3</label>
+
+    </div>
+    -->
+
+  </body>
+</html>
